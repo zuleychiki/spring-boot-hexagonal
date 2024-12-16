@@ -9,7 +9,7 @@ public interface CustomerService {
 
     public Customer createCustomer(Customer customer);
 
-    public List<Customer> getCustomers();
+    public List<Customer> getAllCustomers();
 
     public Customer editCustomer(Customer customer);
 

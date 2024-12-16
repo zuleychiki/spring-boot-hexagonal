@@ -44,7 +44,7 @@ public class CustomerServiceImpl implements CustomerService {
     private final CustomerPort customerPort;
 
     @Override
-    public List<Customer> getCustomers() {
+    public List<Customer> getAllCustomers() {
         return customerPort.getAllCustomers();
     }
 

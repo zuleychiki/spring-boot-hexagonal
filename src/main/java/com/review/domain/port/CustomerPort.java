@@ -1,9 +1,11 @@
 package com.review.domain.port;
 
 import com.review.domain.model.Customer;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public interface CustomerPort {
 
     public List<Customer> getAllCustomers();
